@@ -17,15 +17,11 @@ const AboutSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='text-base text-gray-400'>
-            I am a passionate and versatile developer with over +{calculateDuration('2021-01-01', false)} of JavaScript experience and a constant interest in learning new technologies. I am currently learning the path to be a DevOps and master tools or practices such as "Linux, AWS, CI/CD, Docker, Kubernetes, Jenkins and Terraform" to perform cost optimized, reliable and secure full software delivery and maintenance.
+            I am a passionate and versatile developer with over +{calculateDuration('2021-06-01', false)} of software development experience and a constant interest in learning new technologies. I am currently mastering the path to be a Cloud Engineer and master tools or practices such as " AWS, CI/CD, Docker, and Kubernetes" to perform cost optimized, reliable and secure full software delivery and maintenance.
           </p>
 
           <p className='text-base text-gray-400'>
-            I have a solid experience in web, mobile, and desktop Frontend development, using frameworks and technologies such as "React, Next.js, Angular, Ionic, and Electron". I also have skills in Backend development with "Node", Express and MongoDB. UX design with "Figma" always following the best practices of prototyping and coding, clean architecture, "SOLID" principles, pixel perfect, GitFlow, and agile methodologies.
-          </p>
-
-          <p className='text-base text-gray-400'>
-            In addition to my regular work, I also work on my own projects, creating useful software or products from design and development to deployment in AWS that contribute and help to solve problems or try to solve them or give inspiration to the user connecting the AI to an API and using the "Actions" of OpenAI or others, to give commands and interact with the API and, finally, provide a result to the user.
+            I have a solid experience in web and desktop ent-to-end development, using frameworks and technologies such as "Next.js, Bootstrap, and Tailwind". I also have robust skills in Backend development with "Spring Boot, and Django" with integration to PostgreSQL Database. In addition, I also have experiences in app deployment in cloud, utilizing tools such as Docker and Amazon Web Services. UX design with "Figma" always following the best practices of prototyping and coding, clean architecture, "SOLID" principles, GitFlow, and agile methodologies.
           </p>
 
         </AnimationContainer>
@@ -63,8 +59,6 @@ const AboutSection = () => {
           </div>
 
         </AnimationContainer>
-
-        <ProcessWork />
 
         {/* <AnimationContainer customClassName='w-full flex flex-col gap-5'>
 

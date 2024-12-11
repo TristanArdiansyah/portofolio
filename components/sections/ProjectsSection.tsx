@@ -3,7 +3,7 @@ import AnimationContainer from '../utils/AnimationContainer';
 import SectionContainer from '../utils/SectionContainer';
 import TitleSectionPageContainer from '../utils/TitleSectionPageContainer';
 
-const myGithub = 'https://github.com/jeandv';
+const myGithub = 'https://github.com/TristanArdiansyah';
 
 const ProjectsSection = () => {
   return (

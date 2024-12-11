@@ -10,9 +10,9 @@ const Head = () => {
   const titleFixedToShow = pathname.slice(1).charAt(0).toUpperCase() + pathname.slice(2);
 
   const meta = {
-    title: `Jean Rondón ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
-    description: `Hi! My name is Jean Rondón I'm from Venezuela and I have +3 year of work experience in JavaScript and React, I'm a lover of page design or other things and whenever I can I try to learn new technologies since I discovered programming at 16. I love what I do and I help others with what I can, I also use in web, mobile and desktop development Next.js, Angular, Ionic and Electron implementing good practices, clean architecture, pixel perfect and agile methodologies.`,
-    keywords: 'Jean Rondon, Jeandv, Jean Rondon portafolio, Jeandv portafolio, Jeandv portfolio, Jean Rondon portfolio, Jeandv github, Jean Rondon github, Jeandv LinkedIn, Jean Rondon LinkedIn, Web, Desarrollo web, Programador web, Diseño web, Paginas web, Aplicaciones web, Aplicaciones móviles, Aplicaciones escritorio, Desarrollo frontend, Programador frontend, HTML, CSS, Javascript, Typescript, React, Angular.',
+    title: `Nanda Tristan Ardiansyah ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
+    description: `Hi! My name is Nanda Tristan Ardiansyah. I am from Jakarta, Indonesia. I have a strong passion in software engineering, cloud computing, and product development`,
+    keywords: 'Nanda Tristan, Tristan Ardiansyah, Nanda Tristan portofolio, Tristan portafolio, Tristan Ardiansyah portfolio, Tristan Ardiansyah portfolio, Tristan Ardiansyah github, Tristan Ardiansyah github, Tristan Ardiansyah LinkedIn, Tristan Ardiansyah LinkedIn, Web Development, Cloud Computing.',
     type: 'website'
   };
 
@@ -23,17 +23,13 @@ const Head = () => {
       <meta name='robots' content='follow, index' />
       <meta content={meta.description} name='description' />
       <meta name='keywords' content={meta.keywords} />
-      <meta property='og:url' content={`https://jeandv.vercel.app${pathname}`} />
-      <link rel='canonical' href={`https://jeandv.vercel.app${pathname}`} />
-      <link rel='me' href='mailto:jeanrdev@gmail.com' />
+      <meta property='og:url' content={`https://tristanardiansyah.vercel.app${pathname}`} />
+      <link rel='canonical' href={`https://tristanardiansyah.vercel.app${pathname}`} />
+      <link rel='me' href='mailto:nandatristan@gmail.com' />
       <meta property='og:type' content={meta.type} />
-      <meta property='og:site_name' content='Jean Rondón' />
+      <meta property='og:site_name' content='Nanda Tristan Ardiansyah' />
       <meta property='og:description' content={meta.description} />
       <meta property='og:title' content={meta.title} />
-      <meta name='twitter:card' content='summary_large_image' />
-      <meta name='twitter:site' content='@jeandv_' />
-      <meta name='twitter:title' content={meta.title} />
-      <meta name='twitter:description' content={meta.description} />
     </>
   )
 }

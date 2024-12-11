@@ -3,7 +3,7 @@ import AnimationContainer from '../utils/AnimationContainer';
 const myWorkProcess = [
   {
     id: '1',
-    title: 'Meeting',
+    title: 'Brainstorming',
     des: 'The first step is to hold a meeting to learn about your expectations, objectives and project requirements. It is important to discuss the scope of the project, the resources required and the project delivery schedule.',
     delay: 0.3
   },

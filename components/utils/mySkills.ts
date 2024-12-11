@@ -1,34 +1,30 @@
 export const skills = [
   {
     title: 'Languages',
-    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript']
+    techs: ['Java', 'Python', 'C', 'Dart', 'Kotlin', 'HTML', 'CSS', 'JavaScript', 'TypeScript']
   },
   {
     title: 'Frameworks and libraries',
-    techs: ['jQuery', 'Angular', 'React', 'Next.js', 'Ionic', 'Electron.js']
-  },
-  {
-    title: 'JavaScript libraries',
-    techs: ['Redux', 'TanStack Query', 'Zustand', 'Formik', 'Jest', 'Storybook']
+    techs: ['Django', 'Spring Boot', 'Next.js', 'Flask', 'Android SDK']
   },
   {
     title: 'Preprocessors, css style, component and motion libraries',
-    techs: ['Pug', 'Scss', 'Sass', 'Less', 'Bootstrap', 'Tailwind', 'ChakraUI', 'MaterialUI', 'NextUI', 'Framer Motion']
+    techs: [ 'Bootstrap', 'Tailwind', 'Thymeleaf', 'ChakraUI', 'MaterialUI', 'NextUI', 'Framer Motion']
   },
   {
     title: 'Backend stack',
-    techs: ['noSQL', 'Node.js', 'Express.js', 'MongoDB', 'Postman', 'Firebase', 'Sanity CMS']
+    techs: ['Spring Boot', 'PostgreSQL', 'Docker', 'Postman', 'Firebase', 'AWS', 'GCP']
   },
   {
-    title: 'Softwares and tools',
-    techs: ['VS Code', 'Jira', 'Git', 'GitHub', 'Bitbucket', 'ESLint', 'Husky', 'Figma', 'Photoshop', 'WordPress', 'Elementor']
+    title: 'Softwares, IDE, and tools',
+    techs: ['VS Code', 'Jira', 'Git', 'GitHub', 'Gitlab', 'ESLint', 'Figma', 'Notion', 'Android Studio']
   },
   {
     title: 'Agile methodologies and coding principles',
-    techs: ['GitFlow', 'SCRUM', 'Clean Code', 'SOLID', 'Clean Architecture', 'Pixel perfect']
+    techs: ['GitFlow', 'SCRUM', 'Clean Code', 'SOLID', 'Clean Architecture']
   },
   {
     title: 'Currently or interest in learning...',
-    techs: ['SQL', 'Nest', 'GraphQL', 'PostgreSQL', 'Socket.IO', 'Linux', 'AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform', 'Jenkins']
+    techs: ['Kubernetes', 'CI/CD', 'MLOps', 'Machine Learning']
   }
 ];
