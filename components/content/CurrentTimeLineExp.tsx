@@ -19,11 +19,11 @@ export function calculateDuration(startDate: string, showMonths: boolean): strin
 
 const CurrentTimeLineExp = () => {
   return (
-    <Timeline>
+    <Timeline >
 
       <TimelineEvent active>
 
-        <TimelineEvent.Title><a href='https://www.ia.com.mx' target='_blank' rel='noopener noreferrer' className='hover:text-black hover:underline transition-all ease'>
+        <TimelineEvent.Title><a href='https://www.ia.com.mx' target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>
           Full Stack Developer, Intern. Bioma</a> | August. 2024 - {calculateDuration('2024-08-26', true)}
         </TimelineEvent.Title>
 

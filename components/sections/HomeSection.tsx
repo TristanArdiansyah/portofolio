@@ -27,15 +27,15 @@ const HomeSection = () => {
 
         <FavProjects />
 
-        <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
+        <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8 character-panel'>
 
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Skills</h2>
 
-          <p className='text-base text-gray-600'>
+          <p className='text-base text-white'>
             A look at all the programming languages, libraries, and tools I've worked with, I started programming about +{calculateDuration('2021-08-01', false)} ago. I have tried a few programming languages and technology stack, both Backend and Frontend.
           </p>
 
-          <p className='text-base text-gray-600'>
+          <p className='text-base text-white'>
             Event though the scope of web development is wide, I was very interested and focused on Frontend development.
           </p>
 

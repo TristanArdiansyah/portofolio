@@ -3,23 +3,23 @@ import AnimationContainer from '../utils/AnimationContainer';
 
 const Hero = () => {
   return (
-    <div className='w-full flex justify-between flex-col-reverse lg:flex-row items-center'>
+    <div className='w-full flex justify-between flex-col-reverse lg:flex-row items-center hero-content'>
 
       <AnimationContainer customClassName='flex flex-col items-center justify-between lg:items-start p-0 lg:pr-8'>
 
-        <h1 className='font-bold text-3xl lg:text-5xl text-center lg:text-start tracking-tight mb-3 text-black mx-auto lg:mx-0'>
+        <h1 className='font-bold text-3xl lg:text-5xl text-center lg:text-start tracking-tight mb-3 text-white mx-auto lg:mx-0'>
           Nanda Tristan Ardiansyah
         </h1>
-        <h1 className='italic text-md lg:text-xl text-center lg:text-start tracking-tight mb-3 text-black mx-auto lg:mx-0'>
+        <h1 className='italic text-md lg:text-xl text-center lg:text-start tracking-tight mb-3 text-white mx-auto lg:mx-0'>
           /`trɪs.tən/
         </h1>
 
-        <h2 className='flex items-center gap-2 text-1xl lg:text-1xl text-gray-600 mx-auto lg:mx-0'>
+        <h2 className='flex items-center gap-2 text-1xl lg:text-1xl text-white mx-auto lg:mx-0'>
 
           <span className='font-semibold'>Computer Science Undergraduate</span>• Universitas Indonesia
 
         </h2>
-        <h2 className='flex items-center gap-2 text-1xl lg:text-1xl text-gray-600 mb-8 mx-auto lg:mx-0'>
+        <h2 className='flex items-center gap-2 text-1xl lg:text-1xl text-white mb-8 mx-auto lg:mx-0'>
 
           <span className='font-semibold'>Software</span>Developer
 
@@ -35,7 +35,7 @@ const Hero = () => {
           src='/hero-image.jpg'
           sizes='30vw'
           priority
-          className='rounded-[8px] filter grayscale hover:grayscale-0 transition ease'
+          className='rounded-[8px] filter transition ease'
         />
       </AnimationContainer>
 

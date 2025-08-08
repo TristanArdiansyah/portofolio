@@ -4,7 +4,7 @@ const ContactMe = () => {
   return (
     <AnimationContainer customClassName='w-full'>
 
-      <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-8 text-black text-center lg:text-start' id='contact'>
+      <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-8 text-white text-center lg:text-start' id='contact'>
         Contact me
       </h2>
 
@@ -14,7 +14,7 @@ const ContactMe = () => {
 
           {/* <a href='mailto:jeanrdev@gmail.com' target='_blank' rel='noreferrer' className='w-full'> */}
             <div className='w-full rounded border border-gray-800 hover:border-gray-900 bg-[#080809] p-4 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] sm:p-6 transition ease'>
-              <h6 className='font-bold text-1xl tracking-tight text-black text-start'>
+              <h6 className='font-bold text-1xl tracking-tight text-white text-start'>
                 Email
               </h6>
               <p className='text-base mt-2 text-gray-600'>
@@ -25,7 +25,7 @@ const ContactMe = () => {
 
           {/* <a href='https://walink.co/2369d5' target='_blank' rel='noreferrer' className='w-full'> */}
             <div className='w-full rounded border border-gray-800 hover:border-gray-900 bg-[#080809] p-4 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] sm:p-6 transition ease'>
-              <h6 className='font-bold text-1xl tracking-tight text-black text-start'>
+              <h6 className='font-bold text-1xl tracking-tight text-white text-start'>
                 Phone
               </h6>
               <p className='text-base mt-2 text-gray-600'>
@@ -37,11 +37,11 @@ const ContactMe = () => {
         </div>
 
         <div className='w-full flex justify-center items-center flex-col'>
-          <form action='https://formspree.io/f/xdorkorr' method='POST' className='w-full space-y-4'>
+          <form action='https://formspree.io/f/xeozpnwb' method='POST' className='w-full space-y-4'>
             <div>
               <label className='sr-only' htmlFor='name'>Name</label>
               <input
-                className='w-full rounded p-3 text-base outline-none border text-black bg-black border-gray-900 focus:border-gray-800 transition ease'
+                className='w-full rounded p-3 text-base outline-none border text-white bg-black border-gray-900 focus:border-gray-800 transition ease'
                 placeholder='Name'
                 type='text'
                 id='name'
@@ -54,7 +54,7 @@ const ContactMe = () => {
               <div>
                 <label className='sr-only' htmlFor='email'>Email</label>
                 <input
-                  className='w-full rounded p-3 text-base outline-none border text-black bg-black border-gray-900 focus:border-gray-800 transition ease'
+                  className='w-full rounded p-3 text-base outline-none border text-white bg-black border-gray-900 focus:border-gray-800 transition ease'
                   placeholder='Email'
                   type='email'
                   id='email'
@@ -66,7 +66,7 @@ const ContactMe = () => {
               <div>
                 <label className='sr-only' htmlFor='phone'>Phone</label>
                 <input
-                  className='w-full rounded p-3 text-base outline-none border text-black bg-black border-gray-900 focus:border-gray-800 transition ease'
+                  className='w-full rounded p-3 text-base outline-none border text-white bg-black border-gray-900 focus:border-gray-800 transition ease'
                   placeholder='Phone'
                   type='tel'
                   id='phone'
@@ -79,7 +79,7 @@ const ContactMe = () => {
             <div>
               <label className='sr-only' htmlFor='message'>Message</label>
               <textarea
-                className='w-full h-32 rounded p-3 text-base outline-none border text-black bg-black border-gray-900 focus:border-gray-800 transition ease'
+                className='w-full h-32 rounded p-3 text-base outline-none border text-white bg-black border-gray-900 focus:border-gray-800 transition ease'
                 placeholder='Message'
                 id='message'
                 name='message'
@@ -89,7 +89,7 @@ const ContactMe = () => {
 
             <button
               type='submit'
-              className='flex items-center justify-center rounded px-5 py-3 text-black bg-black hover:bg-gray-900 shadow-sm transition ease mx-auto'
+              className='flex items-center justify-center rounded px-5 py-3 text-white bg-black hover:bg-gray-900 shadow-sm transition ease mx-auto'
             >
               <span className='font-medium text-base'>Send</span>
 

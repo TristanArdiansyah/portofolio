@@ -47,8 +47,8 @@ const LinksNav = () => {
               className={clsx(
                 'hidden lg:inline-block transition ease hover:text-neutral-200 py-[2px] px-[10px]',
                 {
-                  'text-neutral-500': !isActive,
-                  'font-bold': isActive,
+                  'text-white': !isActive,
+                  'font-bold, text-white': isActive,
                 }
               )}>
 
