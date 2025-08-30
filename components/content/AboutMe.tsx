@@ -5,12 +5,12 @@ const AboutMe = () => {
   return (
     <AnimationContainer customClassName='w-full mb-16 character-panel'>
 
-      <h2 className='font-bold text-2xl tracking-tight mb-8 text-white text-center lg:text-start'>
+      <h2 className='font-bold text-2xl tracking-tight mb-8 text-center lg:text-start'>
         About me
       </h2>
 
-      <p className='text-base text-white'>
-      I am a passionate and versatile developer with over +{calculateDuration('2021-06-01', false)} of software development experience and a constant interest in learning new technologies. I am currently mastering the path to be a Cloud Engineer and master tools or practices such as "Linux, AWS, CI/CD, Docker, and Kubernetes" to perform cost optimized, reliable, scalable and secure software delivery and maintenance.</p>
+      <p className='text-base '>
+      I am a passionate and versatile Software and Cloud Engineer with over +{calculateDuration('2024-08-25', false)} of  with experience in managing infrastructure in AWS, Kubernetes, CI/CD Pipelines. Skilled in building and optimizing cloud-native applications, reducing infra costs, automating deployments, and building scalable distributed system support product pivots in fast-moving startups.</p>
 
     </AnimationContainer>
   )

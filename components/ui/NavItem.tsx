@@ -17,7 +17,7 @@ const NavItem = () => {
           <>
             <div className='hidden lg:block'>
               <motion.div
-                className='absolute bg-neutral-800 h-[34px] rounded-md z-[-1]'
+                className='absolute  h-[34px] rounded-md z-[-1]'
                 layoutId='test2'
                 initial={{ opacity: 0, x: navItemsSelected[pathname].x, y: navItemsSelected[pathname].y }}
                 animate={{

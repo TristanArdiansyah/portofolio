@@ -43,7 +43,7 @@ const ProcessWork = () => {
   return (
     <AnimationContainer customClassName='w-full mb-4'>
 
-      <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-12 text-white text-start'>
+      <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-12  text-start'>
         My work process
       </h2>
 
@@ -56,7 +56,7 @@ const ProcessWork = () => {
               customDelay={delay}
             >
 
-              <h3 className='font-bold text-1xl tracking-tight text-white text-start'>
+              <h3 className='font-bold text-1xl tracking-tight  text-start'>
                 {title}
               </h3>
 

@@ -4,7 +4,7 @@ const ContactMe = () => {
   return (
     <AnimationContainer customClassName='w-full'>
 
-      <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-8 text-white text-center lg:text-start' id='contact'>
+      <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-8  text-center lg:text-start' id='contact'>
         Contact me
       </h2>
 

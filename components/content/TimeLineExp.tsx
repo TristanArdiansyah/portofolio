@@ -6,7 +6,7 @@ export const Timeline = ({ children }: { children: React.ReactNode }) => {
   return (
     <AnimationContainer customClassName='w-full mb-16'>
 
-      <h2 className='font-bold text-2xl tracking-tight mb-8 text-white text-center lg:text-start'>Experience</h2>
+      <h2 className='font-bold text-2xl tracking-tight mb-8  text-center lg:text-start'>Experience</h2>
 
       {children}
 
@@ -48,9 +48,13 @@ export const TimelineEvent = ({ active, children, last }: TimelineEventProps) =>
   );
 }
 
-const TimelineEventTitle = ({ children }: { children: React.ReactNode }) => <p className='text-base text-white'>{children}</p>;
+const TimelineEventTitle = ({ children }: { children: React.ReactNode }) =>
+  <div className='text-base '>{children}</div>
+  ;
 
-const TimelineEventDescription = ({ children }: { children: React.ReactNode }) => <p className='text-base text-white'>{children}</p>;
+const TimelineEventDescription = ({ children }: { children: React.ReactNode }) =>
+  <div className='text-base '>{children}</div>
+;
 
 TimelineEvent.Title = TimelineEventTitle;
 
