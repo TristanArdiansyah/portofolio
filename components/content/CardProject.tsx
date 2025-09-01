@@ -5,7 +5,7 @@ import { CardProjectProps } from '@/types';
 
 const CardProject = ({ title, des, category, repo, link }: CardProjectProps) => {
   return (
-    <AnimationContainer customClassName='w-full h-42 flex flex-col justify-center items-center rounded border border-gray-800 hover:border-gray-900 bg-[#080809] shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] p-4 transition-all ease'>
+    <AnimationContainer customClassName='w-full h-42 flex flex-col justify-center items-center rounded border border-gray-800 hover:border-gray-900 shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] p-4 transition-all ease'>
 
       <div className='w-full flex flex-col justify-center items-start rounded gap-5'>
 
@@ -13,7 +13,7 @@ const CardProject = ({ title, des, category, repo, link }: CardProjectProps) => 
           {title}
         </h3>
 
-        <p className='text-base text-gray-600'>
+        <p className='text-base '>
           {des}
         </p>
 

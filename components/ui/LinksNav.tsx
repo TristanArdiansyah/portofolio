@@ -39,22 +39,22 @@ const LinksNav = () => {
   // Handle hydration mismatch and theme initialization
   useEffect(() => {
     setMounted(true);
-    
+
     // Check for saved theme preference
     const savedTheme = localStorage.getItem('theme');
     const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
+
     let shouldUseDark = false;
-    
+
     if (savedTheme === 'dark' || savedTheme === 'light') {
       shouldUseDark = savedTheme === 'dark';
     } else {
       shouldUseDark = systemPrefersDark;
     }
-    
+
     setIsDarkMode(shouldUseDark);
     document.documentElement.setAttribute('data-theme', shouldUseDark ? 'dark' : 'light');
-    
+
     // Save the determined theme if none was previously saved
     if (!savedTheme) {
       localStorage.setItem('theme', shouldUseDark ? 'dark' : 'light');
@@ -115,7 +115,7 @@ const LinksNav = () => {
           </Link>
         );
       })}
-      
+
       {/* Theme Toggle Button */}
       <button
         onClick={toggleTheme}
@@ -125,7 +125,7 @@ const LinksNav = () => {
           color: 'var(--text-primary)'
         }}
         className={clsx(
-          'relative inline-flex h-[44px] w-[44px] items-center justify-center rounded-full',
+          'hidden relative lg:inline-flex h-[44px] w-[44px] items-center justify-center rounded-full',
           'transition-all duration-200 ease-in-out border',
           'hover:scale-105 active:scale-95 hover:opacity-90',
           'focus:outline-none focus:ring-2 focus:ring-offset-2'
@@ -137,8 +137,8 @@ const LinksNav = () => {
         <svg
           className={clsx(
             'absolute h-5 w-5 transform transition-all duration-300 ease-in-out',
-            isDarkMode 
-              ? 'rotate-90 scale-0 opacity-0' 
+            isDarkMode
+              ? 'rotate-90 scale-0 opacity-0'
               : 'rotate-0 scale-100 opacity-100'
           )}
           fill="none"
@@ -158,8 +158,8 @@ const LinksNav = () => {
         <svg
           className={clsx(
             'absolute h-5 w-5 transform transition-all duration-300 ease-in-out',
-            isDarkMode 
-              ? 'rotate-0 scale-100 opacity-100' 
+            isDarkMode
+              ? 'rotate-0 scale-100 opacity-100'
               : '-rotate-90 scale-0 opacity-0'
           )}
           fill="none"

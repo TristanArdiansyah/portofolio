@@ -13,23 +13,7 @@ const allProjectsInfo = [
     category: 'javascript',
     repo: 'https://github.com/TristanArdiansyah/ling-u-capstone',
     link: 'https://github.com/TristanArdiansyah/ling-u-capstone'
-  },
-  {
-    id: '2',
-    title: 'Memory Game',
-    des: 'This is one of the challenges done in CADIF1 Academy. ',
-    category: 'javascript - jquery',
-    repo: 'https://jeandv.github.io/memoria-game',
-    link: 'https://github.com/jeandv/memoria-game'
-  },
-  {
-    id: '3',
-    title: 'Github User Finder',
-    des: 'frontendmentor.io challenge where I use the github api to be able to search for github users.',
-    category: 'javascript',
-    repo: 'https://jeandv.github.io/pokedex',
-    link: 'https://jeandv.github.io/pokedex'
-  },
+  }
 ];
 
 const SearchAllProjects = () => {

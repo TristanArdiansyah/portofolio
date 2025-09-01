@@ -10,9 +10,9 @@ const Head = () => {
   const titleFixedToShow = pathname.slice(1).charAt(0).toUpperCase() + pathname.slice(2);
 
   const meta = {
-    title: `Nanda Tristan Ardiansyah ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
+    title: `N. Tristan Ardiansyah ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
     description: `Hi! My name is Nanda Tristan Ardiansyah. I am from Jakarta, Indonesia. I have a strong passion in software engineering, cloud computing, and product development`,
-    keywords: 'Nanda Tristan, Tristan Ardiansyah, Nanda Tristan portofolio, Tristan portafolio, Tristan Ardiansyah portfolio, Tristan Ardiansyah portfolio, Tristan Ardiansyah github, Tristan Ardiansyah github, Tristan Ardiansyah LinkedIn, Tristan Ardiansyah LinkedIn, Web Development, Cloud Computing.',
+    keywords: 'Nanda Tristan, Tristan Ardiansyah, Nanda Tristan portofolio, Tristan portofolio, Tristan Ardiansyah portfolio, Tristan Ardiansyah portfolio, Tristan Ardiansyah github, Tristan Ardiansyah github, Tristan Ardiansyah LinkedIn, Tristan Ardiansyah LinkedIn, Web Development, Cloud Computing.',
     type: 'website'
   };
 
@@ -23,8 +23,8 @@ const Head = () => {
       <meta name='robots' content='follow, index' />
       <meta content={meta.description} name='description' />
       <meta name='keywords' content={meta.keywords} />
-      <meta property='og:url' content={`https://tristanardiansyah.vercel.app${pathname}`} />
-      <link rel='canonical' href={`https://tristanardiansyah.vercel.app${pathname}`} />
+      <meta property='og:url' content={`https://airdiansyah.my.id${pathname}`} />
+      <link rel='canonical' href={`https://airdiansyah.my.id${pathname}`} />
       <link rel='me' href='mailto:nandatristan@gmail.com' />
       <meta property='og:type' content={meta.type} />
       <meta property='og:site_name' content='Nanda Tristan Ardiansyah' />

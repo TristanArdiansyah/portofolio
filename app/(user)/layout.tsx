@@ -40,6 +40,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <Header />
 
         <main className='flex flex-col justify-center items-center mx-auto'>
+          <br /><br /><br /> <br />
 
           <FlareCursor />
 
